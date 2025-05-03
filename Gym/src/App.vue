@@ -21,16 +21,16 @@
         <q-card-section>
           <div class="text-h6" aria-hidden="true">Menu</div>
         </q-card-section>
-<<<<<<< HEAD
+
         
         <q-separator inset />
 
-        <q-item clickable v-ripple to="/dietas">
-=======
-        <q-separator inset />
-        <q-item clickable v-ripple>
+        
 
->>>>>>> a3ce9f4ab326ad2681f2512649440ab510bb5c79
+        <q-separator inset />
+        <q-item clickable v-ripple to="/dietas">
+
+
           <q-item-section avatar>
             <q-icon name="restaurant" />
           </q-item-section>
