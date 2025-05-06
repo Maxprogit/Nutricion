@@ -74,6 +74,7 @@
     <q-drawer show-if-above v-model="rightDrawerOpen" side="right" bordered>
       <!-- drawer content -->
       <!-- EN ESTA PARTE VA A IR EL PERFIL DE USUARIO CUANDO INICIE SESIÓN -->
+       <Perfil />
     </q-drawer>
 
     <q-page-container>
@@ -88,6 +89,7 @@ import { ref } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
 import HomeView from './views/HomeView.vue'
 import AboutView from './views/AboutView.vue'
+import Perfil from './components/perfil/Perfil.vue'
 
 export default {
   setup() {
