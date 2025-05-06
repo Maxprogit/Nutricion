@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import HelloWorld from '../components/HelloWorld.vue'
 import Dietas from '../components/Dietas.vue'
 import Registro from '../views/Registro.vue'
+import Rutinas from '../components/Rutinas.vue'
+import Login from '../components/auth/Login.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,6 +22,12 @@ const router = createRouter({
     },
     {
       path: '/registro', name: 'registro', component: Registro,
+    },
+    {
+      path: '/rutinas', name: 'rutinas', component: Rutinas,
+    },
+    {
+      path: '/login', name: 'login', component: Login
     },
 
     {

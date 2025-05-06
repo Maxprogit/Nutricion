@@ -69,7 +69,7 @@
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          <div class="q-pa-md bg-white text-black">
+          <div class="q-pa-md bg-white text-black">            
             <q-table
               flat
               bordered
@@ -77,7 +77,7 @@
               :columns="detalleColumns"
               row-key="name"
               hide-bottom
-              separator="vertical"
+              separator="cell"
               :rows-per-page-options="[0]"
             />
           </div>

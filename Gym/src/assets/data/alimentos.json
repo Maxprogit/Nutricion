@@ -104,7 +104,7 @@
             {"name": "Leche en polvo", "portion": "4 cucharadas"},
             {"name": "Leche entera", "portion": "1 taza (250ml)"},
             {"name": "Leche evaporada", "portion": "1/3 taza"},
-            {"name": "Jocoque", "portion": "3/4 taza (250)"},
+            {"name": "Jocoque", "portion": "3/4 taza (250ml)"},
             {"name": "Soful/yakult", "portion": "1 pieza"}
         ]
     },
@@ -213,6 +213,41 @@
             {"name": "Nabo", "portion": "1/2 taza"},
             {"name": "Poro", "portion": "3/4 taza"},
             {"name": "Zanahoria", "portion": "1/2 taza"}
+        ]
+    },
+    {
+        "name": "Verduras B",
+        "image": "/verduras-b.webp",
+        "food": [
+            {"name": "Acelgas", "portion": "Cantidad libre"},
+            {"name": "Rabanos", "portion": "Cantidad libre"},
+            {"name": "Pepino", "portion": "Cantidad libre"},
+            {"name": "Alcachofa", "portion": "Cantidad libre"},
+            {"name": "Chayote", "portion": "Cantidad libre"},
+            {"name": "Perejil", "portion": "Cantidad libre"},
+            {"name": "Berros", "portion": "Cantidad libre"},
+            {"name": "Ejote tierno", "portion": "Cantidad libre"},
+            {"name": "Berenjena", "portion": "Cantidad libre"},
+            {"name": "Espinaca", "portion": "Cantidad libre"},
+            {"name": "Romeritos", "portion": "Cantidad libre"},
+            {"name": "Apio", "portion": "Cantidad libre"},
+            {"name": "Tomate", "portion": "Cantidad libre"},
+            {"name": "Verdolagas", "portion": "Cantidad libre"},
+            {"name": "Brocoli", "portion": "Cantidad libre"},
+            {"name": "Flor de calabaza", "portion": "Cantidad libre"},
+            {"name": "Lechuga", "portion": "Cantidad libre"},
+            {"name": "Cilantro", "portion": "Cantidad libre"},
+            {"name": "Chilacayotes", "portion": "Cantidad libre"},
+            {"name": "Repollo", "portion": "Cantidad libre"},
+            {"name": "Nopales", "portion": "Cantidad libre"},
+            {"name": "Esparragos", "portion": "Cantidad libre"},
+            {"name": "Pimientos morrones", "portion": "Cantidad libre"},
+            {"name": "Champiñones", "portion": "Cantidad libre"},
+            {"name": "Coliflor", "portion": "Cantidad libre"},
+            {"name": "Calabaza", "portion": "Cantidad libre"},
+            {"name": "Xoconoxtle", "portion": "Cantidad libre"},
+            {"name": "Jengibre", "portion": "Cantidad libre"},
+            {"name": "Germen de alfalfa", "portion": "Cantidad libre"}
         ]
     }
 ]

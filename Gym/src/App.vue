@@ -39,7 +39,7 @@
           </q-item-section>
         </q-item>
 
-        <q-item clickable v-ripple>
+        <q-item clickable v-ripple to="/rutinas">
           <q-item-section avatar>
             <q-icon name="fitness_center" />
           </q-item-section>
@@ -60,7 +60,7 @@
         </q-item>
 
 
-        <q-item clickable v-ripple>
+        <q-item clickable v-ripple to="/login">
           <q-item-section avatar>
             <q-icon name="person" />
           </q-item-section>
