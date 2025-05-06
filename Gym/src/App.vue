@@ -19,18 +19,10 @@
 
       <q-list padding>
         <q-card-section>
-          <div class="text-h6" aria-hidden="true">Menu</div>
+          <div class="text-h6 text-center" aria-hidden="true">Menu</div>
         </q-card-section>
-
-        
-        <q-separator inset />
-
-        
-
         <q-separator inset />
         <q-item clickable v-ripple to="/dietas">
-
-
           <q-item-section avatar>
             <q-icon name="restaurant" />
           </q-item-section>
@@ -43,14 +35,12 @@
           <q-item-section avatar>
             <q-icon name="fitness_center" />
           </q-item-section>
-
           <q-item-section>
             Rutinas
           </q-item-section>
         </q-item>
 
-        <q-item clickable v-ripple>
-
+        <q-item clickable v-ripple to="/about">
           <q-item-section avatar>
             <q-icon name="groups" />
           </q-item-section>
@@ -62,10 +52,8 @@
 
         <q-item clickable v-ripple to="/login">
           <q-item-section avatar>
-            <q-icon name="person" />
+            <q-icon name="login" />
           </q-item-section>
-
-
           <q-item-section>
             Iniciar Sesión
           </q-item-section>
@@ -76,8 +64,6 @@
           <q-item-section avatar>
             <q-icon name="person" />
           </q-item-section>
-
-
           <q-item-section>
             Registro
           </q-item-section>
